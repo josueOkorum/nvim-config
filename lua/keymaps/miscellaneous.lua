@@ -21,4 +21,12 @@ return {
 		action = "<C-d>zz",
 		description = "Better ctrl d",
 	},
+	["<c-g>"] = {
+		action = ":let @*=expand('%')<CR>",
+		description = "Copy relative file path",
+	},
+	["<leader>fi"] = {
+		action = ":TodoTelescope keywords=FIXME<CR>",
+		description = "Search fixme todos",
+	},
 }

@@ -24,10 +24,20 @@ return {
 					require("telescope.themes").get_dropdown(),
 				},
 			},
+
 			defaults = {
 				winblend = 1,
 				file_ignore_patterns = {
 					"node_modules",
+					".meteor",
+				},
+				mappings = {
+					i = {
+						["<C-p>"] = require("telescope.actions.layout").toggle_preview,
+					},
+				},
+				preview = {
+					hide_on_startup = false, -- Optional: Hide preview when picker starts
 				},
 			},
 		})

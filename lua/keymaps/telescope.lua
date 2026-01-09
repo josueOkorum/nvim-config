@@ -19,7 +19,14 @@ return {
 		description = "[S]earch [D]iagnostics",
 	},
 	["<leader>sf"] = {
-		action = builtin.live_grep,
+		action = function()
+			builtin.live_grep({
+				layout_config = {
+					preview_width = 0.6,
+				},
+				prompt_title = "Live Grep ",
+			})
+		end,
 		description = "[S]earch by [G]rep",
 	},
 	["<leader>sw"] = {

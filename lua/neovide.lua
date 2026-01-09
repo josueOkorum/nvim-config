@@ -1,4 +1,4 @@
-vim.g.neovide_fullscreen = true
+vim.g.neovide_fullscreen = false
 vim.g.neovide_cursor_vfx_mode = "sonicboom"
 vim.g.transparency = 1
 vim.g.neovide_transparency = 1
@@ -7,4 +7,4 @@ vim.g.neovide_cursor_animation_length = 0.05
 vim.g.neovide_cursor_animate_in_insert_mode = true
 vim.g.neovide_cursor_animate_command_line = true
 vim.g.neovide_cursor_smooth_blink = true
-vim.g.neovide_scale_factor = 0.9
+vim.g.neovide_scale_factor = 1.1

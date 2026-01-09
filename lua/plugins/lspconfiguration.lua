@@ -1,6 +1,5 @@
 local servers = {
 	clangd = {},
-	gopls = {},
 	pyright = {},
 	---@version 2024-10-21
 	rust_analyzer = {
@@ -21,15 +20,7 @@ local servers = {
 	},
 
 	ts_ls = {
-		init_options = {
-			plugins = {
-				{
-					name = "@vue/typescript-plugin",
-					location = "/home/josuedev/.local/share/fnm/node-versions/v22.2.0/installation/lib/node_modules/@vue/typescript-plugin",
-					languages = { "javascript", "typescript", "vue" },
-				},
-			},
-		},
+		init_options = {},
 		filetypes = {
 			"javascript",
 			"javascriptreact",
@@ -58,6 +49,7 @@ local servers = {
 	yamlls = {},
 	dockerls = {},
 	tailwindcss = {},
+	eslint = {},
 }
 
 return {

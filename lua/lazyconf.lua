@@ -50,6 +50,7 @@ require("lazy").setup({
 			opts = { signs = false },
 		},
 
+		{ "nvim-pack/nvim-spectre" },
 		{
 			"lukas-reineke/indent-blankline.nvim",
 			main = "ibl",
